@@ -1,0 +1,5 @@
+bin\Debug\zrlabs.Yael.Common.dll
+bin\Debug\zrlabs.Yael.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\zrlabs.Yael.Common.dll
+obj\Debug\zrlabs.Yael.Common.pdb

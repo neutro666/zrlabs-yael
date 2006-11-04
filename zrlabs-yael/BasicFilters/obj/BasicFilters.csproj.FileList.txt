@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\zrlabs.Yael.Common.dll
+bin\Debug\zrlabs.Yael.Common.pdb
+bin\Debug\zrlabs.Yael.BasicFilters.dll
+bin\Debug\zrlabs.Yael.BasicFilters.pdb
+obj\Debug\zrlabs.Yael.BasicFilters.Images.resources
+obj\Debug\zrlabs.Yael.BasicFilters.dll
+obj\Debug\zrlabs.Yael.BasicFilters.pdb
+obj\Debug\zrlabs.Yael.BasicFilters.Properties.Resources.resources
+obj\Debug\BasicFilters.csproj.GenerateResource.Cache
