@@ -37,6 +37,8 @@
     <Compile Include="FilterManual.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleCell.cs" />
+    <Compile Include="Table.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="FrontTemplate.html">
