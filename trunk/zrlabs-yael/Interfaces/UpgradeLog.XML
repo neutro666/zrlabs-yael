@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="dotnetmagic">
+</Property><Property Name="Solution File" Value="C:\Projects\dotnetmagic\dotnetmagic.sln">
+</Property><Property Name="User Options File" Value="C:\Projects\dotnetmagic\dotnetmagic.suo">
+</Property><Property Name="Date" Value="Tuesday, September 12, 2006">
+</Property><Property Name="Time" Value="22:48 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="dotnetmagic.sln" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\dotnetmagic.sln">
+</Event><Event ErrorLevel="0" Project="" Source="dotnetmagic.suo" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\dotnetmagic.suo">
+</Event><Event ErrorLevel="0" Project="DotNetMagic.Common" Source="DotNetMagic.Common.csproj" Description="Project file successfully backed up as C:\Projects\dotnetmagic\Backup\DotNetMagic.Common.csproj">
+</Event><Event ErrorLevel="0" Project="DotNetMagic.Common" Source="DotNetMagic.Common.csproj.user" Description="Project user file successfully backed up as C:\Projects\dotnetmagic\Backup\DotNetMagic.Common.csproj.user">
+</Event><Event ErrorLevel="0" Project="DotNetMagic.Common" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DotNetMagic.Common" Source="BasicFilter.cs" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\BasicFilter.cs">
+</Event><Event ErrorLevel="0" Project="DotNetMagic.Common" Source="IFilter.cs" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\IFilter.cs">
+</Event><Event ErrorLevel="0" Project="DotNetMagic.Common" Source="DotNetMagic.Common.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DotNetMagic.Common" Source="DotNetMagic.Common.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BasicFilters" Source="BasicFilters\BasicFilters.csproj" Description="Project file successfully backed up as C:\Projects\dotnetmagic\Backup\BasicFilters\BasicFilters.csproj">
+</Event><Event ErrorLevel="0" Project="BasicFilters" Source="BasicFilters\BasicFilters.csproj.user" Description="Project user file successfully backed up as C:\Projects\dotnetmagic\Backup\BasicFilters\BasicFilters.csproj.user">
+</Event><Event ErrorLevel="0" Project="BasicFilters" Source="BasicFilters\AssemblyInfo.cs" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\BasicFilters\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="BasicFilters" Source="BasicFilters\DropShadow.cs" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\BasicFilters\DropShadow.cs">
+</Event><Event ErrorLevel="0" Project="BasicFilters" Source="BasicFilters\Resize.cs" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\BasicFilters\Resize.cs">
+</Event><Event ErrorLevel="0" Project="BasicFilters" Source="BasicFilters\Rotate.cs" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\BasicFilters\Rotate.cs">
+</Event><Event ErrorLevel="0" Project="BasicFilters" Source="BasicFilters\Template.cs" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\BasicFilters\Template.cs">
+</Event><Event ErrorLevel="0" Project="BasicFilters" Source="BasicFilters\Images.resources" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\BasicFilters\Images.resources">
+</Event><Event ErrorLevel="0" Project="BasicFilters" Source="BasicFilters\BasicFilters.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BasicFilters" Source="BasicFilters\BasicFilters.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ConsoleApp" Source="ConsoleApp\ConsoleApp.csproj" Description="Project file successfully backed up as C:\Projects\dotnetmagic\Backup\ConsoleApp\ConsoleApp.csproj">
+</Event><Event ErrorLevel="0" Project="ConsoleApp" Source="ConsoleApp\ConsoleApp.csproj.user" Description="Project user file successfully backed up as C:\Projects\dotnetmagic\Backup\ConsoleApp\ConsoleApp.csproj.user">
+</Event><Event ErrorLevel="0" Project="ConsoleApp" Source="ConsoleApp\AssemblyInfo.cs" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\ConsoleApp\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ConsoleApp" Source="ConsoleApp\ConTester.cs" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\ConsoleApp\ConTester.cs">
+</Event><Event ErrorLevel="0" Project="ConsoleApp" Source="ConsoleApp\App.ico" Description="File successfully backed up as C:\Projects\dotnetmagic\Backup\ConsoleApp\App.ico">
+</Event><Event ErrorLevel="0" Project="ConsoleApp" Source="ConsoleApp\ConsoleApp.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ConsoleApp" Source="ConsoleApp\ConsoleApp.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="dotnetmagic.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="dotnetmagic.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DotNetMagic.Common" Source="DotNetMagic.Common.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BasicFilters" Source="BasicFilters\BasicFilters.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ConsoleApp" Source="ConsoleApp\ConsoleApp.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
