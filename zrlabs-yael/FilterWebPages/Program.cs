@@ -18,6 +18,7 @@ namespace FiltersManualPages
     private const string IMAGES_TABLE_TOKEN = "__IMAGES_TABLE__";
     static void Main(string[] args)
     {
+      Console.WriteLine(SamplesTable.GetTable());
       string frontPageTemplate = LoadHtmlTemplate();
       string filtersContent = "";
       Assembly myDll = System.Reflection.Assembly.LoadFile(AppDomain.CurrentDomain.BaseDirectory + @"/zrlabs.Yael.BasicFilters.dll");
