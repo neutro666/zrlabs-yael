@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZRLabs.Yael.Common", "Interfaces\ZRLabs.Yael.Common.csproj", "{8C96EA44-6939-4266-A558-301535403A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicFilters", "BasicFilters\BasicFilters.csproj", "{01347F6F-B567-4A33-B2A7-07CBDC5FB437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiltersManualPages", "FilterWebPages\FiltersManualPages.csproj", "{D744B47B-58E0-48BB-A131-A3DF4A1E08EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C96EA44-6939-4266-A558-301535403A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C96EA44-6939-4266-A558-301535403A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C96EA44-6939-4266-A558-301535403A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C96EA44-6939-4266-A558-301535403A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01347F6F-B567-4A33-B2A7-07CBDC5FB437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01347F6F-B567-4A33-B2A7-07CBDC5FB437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01347F6F-B567-4A33-B2A7-07CBDC5FB437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01347F6F-B567-4A33-B2A7-07CBDC5FB437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D744B47B-58E0-48BB-A131-A3DF4A1E08EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D744B47B-58E0-48BB-A131-A3DF4A1E08EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D744B47B-58E0-48BB-A131-A3DF4A1E08EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D744B47B-58E0-48BB-A131-A3DF4A1E08EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

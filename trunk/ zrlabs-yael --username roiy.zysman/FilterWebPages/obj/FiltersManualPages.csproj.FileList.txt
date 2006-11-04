@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\FilterWebPages.exe
+bin\Debug\FilterWebPages.pdb
+obj\Debug\FilterWebPages.exe
+obj\Debug\FilterWebPages.pdb
+bin\Debug\FrontTemplate.html
+bin\Debug\NoDemo.jpg
+bin\Debug\zrlabs.Yael.Common.dll
+bin\Debug\zrlabs.Yael.Common.pdb
+bin\Debug\zrlabs.Yael.BasicFilters.dll
+bin\Debug\zrlabs.Yael.BasicFilters.pdb
