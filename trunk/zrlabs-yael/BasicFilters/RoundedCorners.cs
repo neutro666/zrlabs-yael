@@ -9,7 +9,7 @@ namespace ZRLabs.Yael.BasicFilters
   /// <summary>
   /// Curved Border filter class .  Turns right 90 degrees corners to round corners
   /// </summary>
-  public class CurvedBorder : BasicFilter
+  public class RoundedCorners : BasicFilter
   {
     #region Public Properties Tokens
     public static string ROTATE_DEGREES_TOKEN = "radius";

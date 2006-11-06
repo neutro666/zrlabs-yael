@@ -1,0 +1,28 @@
+<table class="">
+<tr class=""><td class=""><img src="Images/resize_100x70.png"><br>resize.Width = 100;resize.Height = 70;transformed = resize.ExecuteFilter(myImg);</td>
+<td class=""><img src="Images/resize_50x45.png"><br>resize.Width = 50;resize.Height = 45;transformed = resize.ExecuteFilter(myImg);</td>
+</tr>
+<tr class=""><td class=""><img src="Images/rotate_minus_30.png"><br>rotate.RotateDegrees = -30;transformed = rotate.ExecuteFilter(myImg);</td>
+<td class=""><img src="Images/rotate_45.png"><br>rotate.RotateDegrees = 45;transformed = rotate.ExecuteFilter(myImg);</td>
+</tr>
+<tr class=""><td class=""><img src="Images/grayScale_brighter.png"><br>grayScale.Brighter = true;transformed = rotate.ExecuteFilter(myImg);</td>
+<td class=""><img src="Images/grayScale_brighter.png"><br>grayScale.Brighter = false;transformed = rotate.ExecuteFilter(myImg);</td>
+</tr>
+<tr class=""><td class=""><img src="Images/rounded_30.png"><br>rounded.CurveRadius = 30;transformed = rounded.ExecuteFilter(myImg);</td>
+<td class=""><img src="Images/rounded_50.png"><br>rounded.CurveRadius = 50;transformed = rounded.ExecuteFilter(myImg);</td>
+<td class=""><img src="Images/rounded_10.png"><br>rounded.CurveRadius = 10;transformed = rounded.ExecuteFilter(myImg);</td>
+</tr>
+<tr class=""><td class=""><img src="Images/box_depth_10.png"><br>box.BoxDepth = 10;transformed = rotate.ExecuteFilter(myImg);</td>
+<td class=""><img src="Images/box_colors2.png"><br>box.BoxDepth = 20;box.BoxStartColor = Color.Tan;box.BoxEndColor = Color.Wheat;transformed = rotate.ExecuteFilter(myImg);</td>
+<td class=""><img src="Images/box_colors3.png"><br>box.BoxDepth = 20;box.BoxStartColor = Color.Tan;box.BoxEndColor = Color.Wheat;transformed = rotate.ExecuteFilter(myImg);</td>
+</tr>
+<tr class=""><td class=""><img src="Images/dropShadow.png"><br>transformed = box.ExecuteFilter(myImg);</td>
+</tr>
+<tr class=""><td class=""><img src="Images/polaroid_with_drop_shadow.png"><br>polaroid.WithDropShadow = true;polaroid.Caption = "Pitzi";transformed = polaroid.ExecuteFilter(myImg);</td>
+<td class=""><img src="Images/polaroid_without_drop_shadow.png"><br>polaroid.WithDropShadow = true;polaroid.Caption = "Pitzi";transformed = polaroid.ExecuteFilter(myImg);</td>
+</tr>
+<tr class=""><td class=""><img src="Images/text_water_mark_bottom_right.png"><br>textWaterMark.Caption = "Pitzi";textWaterMark.TextSize = 20;textWaterMark.AutomaticTextSize = false;textWaterMark.Valign = TextWatermarkFilter.VAlign.Right;textWaterMark.Halign = TextWatermarkFilter.HAlign.Bottom;textWaterMark.CaptionColor = Color.Red;transformed = textWaterMark.ExecuteFilter(myImg);</td>
+<td class=""><img src="Images/text_water_middle_left.png"><br>textWaterMark.Caption = "Pitzi";textWaterMark.AutomaticTextSize = true;textWaterMark.Valign = TextWatermarkFilter.VAlign.Center;textWaterMark.Halign = TextWatermarkFilter.HAlign.Middle;textWaterMark.CaptionColor = Color.White;transformed = textWaterMark.ExecuteFilter(myImg);</td>
+<td class=""><img src="Images/text_water_top_left.png"><br>textWaterMark.Caption = "Pitzi";textWaterMark.AutomaticTextSize = true;textWaterMark.Valign = TextWatermarkFilter.VAlign.Center;textWaterMark.Halign = TextWatermarkFilter.HAlign.Middle;textWaterMark.CaptionColor = Color.White;transformed = textWaterMark.ExecuteFilter(myImg);</td>
+</tr>
+</table>

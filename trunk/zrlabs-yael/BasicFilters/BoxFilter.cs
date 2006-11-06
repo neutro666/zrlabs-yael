@@ -101,7 +101,8 @@ namespace ZRLabs.Yael.BasicFilters
       Point rightTop = new Point((int)((raw.Width+sideWidth) * Math.Cos(alpha)) , (int)(sideWidth*Math.Sin(alpha)));
       g.DrawImage(raw, new Point[] { leftTop, rightTop, leftBottom });
 
-      //LeftSide
+      
+      //TopSide
       Point topUpperRight = new Point(rightTop.X - (int)(topHeight * Math.Cos(alpha)), rightTop.Y - (int)(topHeight * Math.Sin(alpha)));
       Point topLowerRight = new Point(rightTop.X, rightTop.Y);
       Point topLowerLeft = new Point(leftTop.X, leftTop.Y);
@@ -111,10 +112,10 @@ namespace ZRLabs.Yael.BasicFilters
       top[1] = topUpperRight;
       top[2] = topLowerRight;
       top[3] = topLowerLeft;
-      LinearGradientBrush topBrush = new LinearGradientBrush(topLowerRight, topUpperLeft, Color.DarkBlue, Color.LightBlue);
+      LinearGradientBrush topBrush = new LinearGradientBrush(topLowerRight, topUpperLeft, _boxStartColor, _boxEndColor);
       g.FillPolygon(topBrush, top);
 
-      //TopSide
+      //LeftSide
       Point sideUpperRight = new Point(leftTop.X, leftTop.Y);
       Point sideLowerRight = new Point(leftBottom.X, leftBottom.Y);
       Point sideLowerLeft = new Point(leftBottom.X - (int)(sideWidth * Math.Cos(alpha)), leftBottom.Y - (int)(sideWidth * Math.Sin(alpha)));
@@ -124,7 +125,7 @@ namespace ZRLabs.Yael.BasicFilters
       side[1] = sideUpperRight;
       side[2] = sideLowerRight;
       side[3] = sideLowerLeft;
-      LinearGradientBrush sideBrush = new LinearGradientBrush(sideUpperLeft, sideLowerRight, _boxStartColor,_boxEndColor);
+      LinearGradientBrush sideBrush = new LinearGradientBrush(sideUpperLeft, sideLowerRight, _boxStartColor, _boxEndColor);
       g.FillPolygon(sideBrush, side);
       return result;
     }
