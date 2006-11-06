@@ -10,7 +10,7 @@ namespace ZRLabs.Yael.BasicFilters
   /// <summary>
   /// Summary description for Class1.
   /// </summary>
-  public class WatermarkFilter : BasicFilter
+  public class TextWatermarkFilter : BasicFilter
   {
     #region Public Properties Tokens
     public const string WIDTH_TOKEN_NAME = "Width";
@@ -44,7 +44,7 @@ namespace ZRLabs.Yael.BasicFilters
       set { _automaticTextSizing = value; }
     }
 
-    public int CAPTION_ALPHA
+    public int CaptionAlpha
     {
       get
       {
@@ -57,7 +57,7 @@ namespace ZRLabs.Yael.BasicFilters
     }
 
 
-    public Color CAPTION_COLOR
+    public Color CaptionColor
     {
       get { return _captionColor; }
       set { _captionColor = value; }
@@ -173,7 +173,8 @@ namespace ZRLabs.Yael.BasicFilters
         StrFormat);
 
       //define a Brush which is semi trasparent white (Alpha set to 153)
-      SolidBrush semiTransBrush = new SolidBrush(Color.FromArgb(_alpha, 255, 255, 255));
+      
+      SolidBrush semiTransBrush = new SolidBrush(Color.FromArgb(_alpha, _captionColor.R,_captionColor.G,_captionColor.B));
 
       //Draw the Copyright string a second time to create a shadow effect
       //Make sure to move this text 1 pixel to the right and down 1 pixel

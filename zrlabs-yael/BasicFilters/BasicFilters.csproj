@@ -102,7 +102,7 @@
     <Compile Include="PolaroidFrameFilter.cs" />
     <Compile Include="matrix.cs" />
     <Compile Include="skew.cs" />
-    <Compile Include="CurvedBorder.cs" />
+    <Compile Include="RoundedCorners.cs" />
     <Compile Include="Watermark.cs" />
     <Compile Include="DropShadow.cs">
       <SubType>Code</SubType>

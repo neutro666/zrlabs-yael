@@ -15,16 +15,19 @@ namespace ZRLabs.Yael.BasicFilters
   public class BlackAndWhiteFilter : BasicFilter
   {
 
-
-
     #region Private Fields
+    private bool _isBright = true;
     #endregion Private Fields
 
     #region Public Properties Tokens
-    #endregion Public Properties Tokens
 
-    #region Filter Properties
-    #endregion Region Filter Properties
+    public bool Brighter
+    {
+      get { return _isBright; }
+      set { _isBright = value; }
+    }
+
+    #endregion Public Properties Tokens
 
     #region Public Filter Methods
     /// <summary>
@@ -37,24 +40,28 @@ namespace ZRLabs.Yael.BasicFilters
       ///Reference from http://www.bobpowell.net/grayscale.htm
       Bitmap bm = new Bitmap(inputImage.Width, inputImage.Height);
       Graphics g = Graphics.FromImage(bm);
+      ColorMatrix cm;
 
+      if (_isBright)
+      {
+        cm = new ColorMatrix(new float[][]{   new float[]{0.5f,0.5f,0.5f,0,0},
+                                  new float[]{0.5f,0.5f,0.5f,0,0},
+                                  new float[]{0.5f,0.5f,0.5f,0,0},
+                                  new float[]{0,0,0,1,0,0},
+                                  new float[]{0,0,0,0,1,0},
+                                  new float[]{0,0,0,0,0,1}});
+      }
+      else
+      {
 
-      //ColorMatrix cm = new ColorMatrix(new float[][]{   new float[]{0.5f,0.5f,0.5f,0,0},
-      //                            new float[]{0.5f,0.5f,0.5f,0,0},
-      //                            new float[]{0.5f,0.5f,0.5f,0,0},
-      //                            new float[]{0,0,0,1,0,0},
-      //                            new float[]{0,0,0,0,1,0},
-      //                            new float[]{0,0,0,0,0,1}});
-
-      
-      //Gilles Khouzams colour corrected grayscale shear
-      ColorMatrix cm = new ColorMatrix(new float[][]{   new float[]{0.3f,0.3f,0.3f,0,0},
+        //Gilles Khouzams colour corrected grayscale shear
+        cm = new ColorMatrix(new float[][]{   new float[]{0.3f,0.3f,0.3f,0,0},
                                 new float[]{0.59f,0.59f,0.59f,0,0},
                                 new float[]{0.11f,0.11f,0.11f,0,0},
                                 new float[]{0,0,0,1,0,0},
                                 new float[]{0,0,0,0,1,0},
                                 new float[]{0,0,0,0,0,1}});
-      
+      }
 
       ImageAttributes ia = new ImageAttributes();
       ia.SetColorMatrix(cm);
