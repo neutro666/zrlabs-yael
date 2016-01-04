@@ -1,0 +1,2 @@
+YAEL stands for Yet Another image Enhancement Library.
+Targeted mostly for web design , but appropriate for other uses as well. It is basically a collection of image common image filters. Things like dropshadow, rounded corners, Polaroid frame, watermark , etc. While others solutions focus on basic core filters , this library includes more practical filters which makes web images look better.
